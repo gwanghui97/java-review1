@@ -6,6 +6,7 @@ public class Example06 {
          * && || ! 연산자를 사용하여
          * 논리 연산을 수행하는 예제를 작성하세요
          */
+        //boolean형 a, b 선언 및 초기화
         boolean a = false;
         boolean b = false;
 

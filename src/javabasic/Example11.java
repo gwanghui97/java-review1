@@ -21,12 +21,15 @@ public class Example11 {
             studentArr[i] = scanner.nextDouble();
         }
 
+        //합은 sum, 평균은 average로 선언 후 0으로 초기화
+        //합에 누적하여 더하기
         double sum = 0;
         double average = 0;
         for (int i = 0; i < studentArr.length; i++) {
             sum += studentArr[i];
         }
 
+        //평균은 합에서 studentArr.length 길이만큼 나누기
         for (int i = 0; i < studentArr.length; i++) {
             average = sum / studentArr.length;
         }

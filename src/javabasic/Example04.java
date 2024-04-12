@@ -9,6 +9,7 @@ public class Example04 {
          * 이들에 대한 덧셈, 뺄셈, 곱셈, 나눗셈, 나머지
          * 연산의 결과를 출력
          */
+        //Scanner 객체 생성
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("첫번째 숫자를 입력해 주세요: ");
