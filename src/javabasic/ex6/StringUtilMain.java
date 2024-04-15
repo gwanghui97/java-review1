@@ -12,6 +12,6 @@ public class StringUtilMain {
         //오버로딩된 concat 메서드 실행
         System.out.println(StringUtil.concat("hello", "java", "hello"));
         //오버로딩된 contains 메서드 실행
-        System.out.println(StringUtil.contains("hello", "hel"));
+        System.out.println(StringUtil.contains("hel", "hello"));
     }
 }

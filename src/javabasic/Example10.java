@@ -1,5 +1,7 @@
 package javabasic;
 
+import java.util.Arrays;
+
 public class Example10 {
     public static void main(String[] args) {
         /**
@@ -12,7 +14,7 @@ public class Example10 {
         //i가 0부터 배열 길이보다 작을 때까지 배열에 저장하고 출력
         for (int i = 0; i < intArr.length; i++) {
             intArr[i] = i + 1;
-            System.out.println(intArr[i]);
         }
+        System.out.println(Arrays.toString(intArr));
     }
 }
